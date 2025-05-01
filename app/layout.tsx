@@ -9,8 +9,8 @@ import ShowAuth from "@/auth/isAuth/ShowAuth";
 import { authenticate } from "@/auth/isAuth/Auth";
 import LayoutCart from "@/components/layout/LayoutCart/LayoutCart";
 export const metadata: Metadata = {
-  title: "StudioX",
-  description: "An AI solution to you interior needs",
+  title: "FuniMate",
+  description: "A solution to you decor needs",
 };
 
 export default function RootLayout({
