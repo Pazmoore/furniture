@@ -1,0 +1,82 @@
+.beds {
+    background: #fff;
+    padding: 2.5rem 0;
+    color: #000;
+    margin-top: 4rem;
+
+    .beds_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+        p {
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+    }
+
+    .pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .featured_product {
+        position: relative;
+        .featured_info {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding: 1.25rem 2rem;
+            color: #fff;
+            font-size: 1.5rem;
+
+            .featured_link {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+    }
+
+    .beds_product {
+        position: relative;
+        .beds_info {
+            position: absolute;
+            bottom: 0;
+            padding: 2rem;
+            color: #fff;
+
+            h6 {
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+            }
+            .btn {
+                border: 1px solid #fff;
+                color: white;
+            }
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .beds {
+        .pics {
+            grid-template-columns: 1fr;
+        }
+    }
+}

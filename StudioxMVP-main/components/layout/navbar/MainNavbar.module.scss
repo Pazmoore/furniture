@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    gap: 1.625rem;
+}
+
+.logo {
+    width: 10rem;
+    height: 6rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+    svg {
+        border-right: 1px solid white;
+        padding: 0px 1.5rem;
+    }
+    p {
+        padding: 0 1.5rem;
+    }
+}
+
+.shopping {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .nav_links {
+        display: none;
+    }
+}

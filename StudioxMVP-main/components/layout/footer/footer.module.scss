@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+
+    .logo {
+        width: 10rem;
+        height: 6rem;
+    }
+
+    .footerlinks {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.625rem;
+    }
+
+    .socials {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    
+}
+.footerbottom {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
