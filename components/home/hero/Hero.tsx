@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       </h1>
       <div className={styles.pics}>
         <Image
-          src="/images/home/image-0.png"
+          src="/images/home/image-0.jpg"
           alt="hero"
           width={500}
           height={500}
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         />
         <div className={styles.pic}>
           <Image
-            src="/images/home/hero2.png"
+            src="/images/home/hero2.jpg"
             alt="hero"
             width={500}
             height={500}

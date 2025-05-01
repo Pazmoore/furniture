@@ -18,7 +18,7 @@ const Beds = () => {
         <div className={styles.pics}>
           <div className={styles.featured_product}>
             <Image
-              src="/images/home/bed1.png"
+              src="/images/home/hero2.jpg"
               alt="beds_and_sofa"
               width={500}
               height={400}
