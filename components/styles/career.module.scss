@@ -1,0 +1,127 @@
+.join_container {
+    margin: 3rem 0;
+
+    .join {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid #fff;
+
+        h1 {
+            margin-bottom: 1rem;
+            max-width: 46.25rem;
+            line-height: 3.375rem;
+        }
+
+        p {
+            max-width: 33.75rem;
+            text-align: center;
+            line-height: 2.25rem;
+        }
+    }
+
+    .work {
+        margin: 4rem 0;
+
+        h2 {
+            margin-bottom: 3rem;
+        }
+        .workbox {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+
+            .work_container {
+                // margin-right: 1.5rem;
+                line-height: 1.5rem;
+                background-color: #fff;
+                color: #000;
+                padding: 1rem;
+                min-height: 345px;
+                border-radius: 0.625rem;
+
+                .join_img {
+                    background-color: #000;
+                    border: 15px black solid;
+                    border-radius: 8px;
+                    margin-bottom: 5rem;
+                }
+
+                .info {
+                    width: 100%;
+                    max-width: 250px;
+
+                    h3 {
+                        font-family: Aeonik, sans-serif;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        margin-top: 1rem;
+                        width: 100%;
+                        max-width: 290px;
+                    }
+                    .p {
+                        margin-bottom: 1.48rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        .join_img {
+            position: relative;
+            left: 4rem;
+        }
+        input {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #121212;
+            color: #fff;
+            width: 100%;
+            max-width: 800px;
+            height: 65px;
+            border: 1px #fff solid;
+            border-radius: 10px;
+            padding: 2rem;
+        }
+        input::placeholder {
+            color: #fff;
+            padding: 3rem;
+        }
+    }
+    .job {
+        margin-top: 3rem;
+        line-height: 1.5rem;
+        .job_one,
+        .job_two,
+        .job_three,
+        .job_four,
+        .job_five,
+        .job_six {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            border: 2px #fff solid;
+            border-radius: 10px;
+            padding: 1.5rem;
+            line-height: 2rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+}

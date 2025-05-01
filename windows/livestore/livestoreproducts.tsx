@@ -1,0 +1,100 @@
+import { FurnitureInterface } from "@/interfaces/furnitures/Furniture";
+
+export const livestoreProductsData: FurnitureInterface[] = [
+  {
+    id: 1,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product1.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 2,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product2.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 3,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product3.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 4,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product4.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 5,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product5.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 6,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product1.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 7,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product7.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 8,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product4.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+  {
+    id: 9,
+    name: "Duvet Cover",
+    price: 400.0,
+    rating: 2.45,
+    quantity: 1,
+    product: "/images/livestore/product6.png",
+    category: "LiveStore",
+    subCategory: "",
+  },
+];
+
+const DummyComponent = () => {
+  return null; // No UI is needed for this file
+};
+
+export default DummyComponent;

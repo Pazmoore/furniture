@@ -1,0 +1,124 @@
+.cart {
+    .cartContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        .cartItems {
+            max-width: 40rem;
+            width: 100%;
+            .cartItem {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.25rem;
+                padding: 2.5rem 0;
+                border-bottom: 1px solid;
+
+                img {
+                    border-radius: 0.625rem;
+                }
+
+                .cartItem_info {
+                    max-width: 22rem;
+                    width: 100%;
+                    .cartItem_name {
+                        display: flex;
+                        align-items: center;
+                        gap: 1.25rem;
+                        margin-bottom: 1.5rem;
+
+                        p {
+                            font-size: 1.25rem;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .cartCard_delivery {
+                        display: flex;
+                        gap: 0.25rem;
+                        line-height: 1.5rem;
+                    }
+
+                    .increase {
+                        display: flex;
+                        align-items: center;
+                        gap: 2.25rem;
+                        flex-wrap: wrap;
+                        margin-top: 1.75rem;
+
+                        .add {
+                            border: 1px solid #fff;
+                            color: #fff;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            gap: 1.25rem;
+                            width: 100%;
+                            max-width: 187px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .total {
+            width: 100%;
+            max-width: 20rem;
+            padding: 2.5rem 0;
+            h2 {
+                margin-bottom: 2.25rem;
+            }
+            .amount {
+                display: flex;
+                align-items: center;
+                gap: 5rem;
+                flex-wrap: wrap;
+                margin-bottom: 24px;
+
+                span {
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                }
+            }
+
+            .delivery {
+                display: flex;
+                align-items: center;
+                gap: 5rem;
+                flex-wrap: wrap;
+                margin-bottom: 24px;
+                border-bottom: 1px solid #fff;
+                padding-bottom: 2.25rem;
+
+                span {
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                }
+            }
+
+            button {
+                background: #fff;
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+    }
+
+    .bedAndSofa {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .products {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.maps {
+    position: relative;
+    span {
+        color: #121212;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
+
+.livestore {
+    display: flex;
+    flex-direction: row;
+
+    .livestore_image {
+        width: 50%;
+        .livestore_img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .livestore_products_container {
+        background: #fff;
+        color: #121212;
+        padding: 1rem 2rem;
+        width: 50%;
+
+        .livestore_header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .livestore_products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            height: 100vh;
+            overflow-y: auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .livestore {
+        .livestore_image {
+            width: 100%;
+        }
+
+        .livestore_products_container {
+            width: 100%;
+        }
+    }
+}

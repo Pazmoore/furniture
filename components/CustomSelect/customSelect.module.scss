@@ -1,0 +1,21 @@
+.custom_select {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    cursor: pointer;
+
+    .selected_option {
+        padding: 0.875rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .options_list {
+        list-style: none;
+        line-height: 1.75rem;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,58 @@
+export const householdproductsdata = [
+  {
+    id: 1,
+    name: "Private workspace",
+    price: "$100",
+    rating: 4.45,
+    product: "/images/houseproducts/product1.png",
+  },
+  {
+    id: 2,
+    name: "Game Table",
+    price: "$400",
+    rating: 2.45,
+    product: "/images/houseproducts/product2.png",
+  },
+  {
+    id: 3,
+    name: "Long Fashion Chair",
+    price: "$150",
+    rating: 3.45,
+    product: "/images/houseproducts/product3.png",
+  },
+  {
+    id: 4,
+    name: "Long Chair",
+    price: "$50",
+    rating: 2.45,
+    product: "/images/houseproducts/product4.png",
+  },
+  {
+    id: 5,
+    name: "Ashes Bed",
+    price: "$500",
+    rating: 2.45,
+    product: "/images/houseproducts/product5.png",
+  },
+  {
+    id: 6,
+    name: "Long curve Chair",
+    price: "$300",
+    rating: 2.45,
+    product: "/images/houseproducts/product6.png",
+  },
+  {
+    id: 7,
+    name: "Glass wooden table",
+    price: "$100",
+    rating: 4.0,
+    product: "/images/houseproducts/product7.png",
+  },
+  {
+    id: 8,
+    name: "Ankle Chair",
+    price: "$100",
+    rating: 2.45,
+    product: "/images/houseproducts/product8.png",
+  },
+];

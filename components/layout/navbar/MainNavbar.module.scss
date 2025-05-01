@@ -1,0 +1,197 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 2.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    gap: 1.625rem;
+}
+
+.logo {
+    width: 10rem;
+    height: 6rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    gap: 1rem;
+    position: relative;
+
+    span {
+        height: 2rem;
+        width: 2px;
+        background: white;
+    }
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.search_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    width: 25rem;
+
+    input {
+        border: none;
+        outline: none;
+        font-size: 0.875rem;
+    }
+}
+
+.shopping {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .profile {
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+
+    button {
+        border: 1px solid #fff;
+        color: #fff;
+        border-radius: 0.5rem;
+    }
+}
+
+.show {
+    display: none;
+}
+
+.menu {
+    display: none;
+    .menuIcon {
+        font-size: 1.5rem;
+    }
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -16rem;
+    width: 16rem;
+    height: 100%;
+    background-color: #120830;
+    color: #fff;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 1.25rem;
+
+    ul {
+        line-height: 2.5rem;
+        font-weight: 600;
+        padding: 2.5rem 0;
+
+        li {
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.showSidebar {
+    right: 0;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.profile_modal {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .profile_dropdown {
+        background: #120830;
+        padding: 2rem 1rem;
+        border-radius: 1.25rem;
+        width: 100%;
+        max-width: 16.25rem;
+
+        img {
+            width: 6.25rem;
+            height: 3.125rem;
+        }
+
+        ul {
+            line-height: 2.5rem;
+        }
+    }
+}
+
+.countries_modal {
+    position: absolute;
+    width: 100%;
+    top: 2.25rem;
+    right: -1.25rem;
+
+    .countries_dropdown {
+        background: #121212;
+        padding: 2rem 1rem;
+        border-radius: 0.625rem;
+        width: 100%;
+        max-width: 16.25rem;
+
+        img {
+            width: 6.25rem;
+            height: 3.125rem;
+        }
+
+        ul {
+            line-height: 2.5rem;
+
+            li {
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav_links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .search {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+}

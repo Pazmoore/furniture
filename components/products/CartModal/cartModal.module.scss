@@ -1,0 +1,58 @@
+.CartModal {
+    position: absolute;
+    background: #121212;
+    right: 0.75rem;
+    top: 3.375rem;
+    width: 100%;
+    max-width: 40rem;
+    z-index: 10;
+
+    h2 {
+        padding: 1rem;
+        text-align: center;
+    }
+    .cartItemsContainer {
+        width: 100%;
+        background: #fff;
+        color: #121212;
+        padding: 1rem;
+    }
+    .amount {
+        background: #f3f3f3;
+        color: #121212;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 1.7rem 2.75rem;
+        margin-top: -1px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.7rem 2.75rem;
+        gap: 1.5rem;
+
+        button {
+            border-radius: 0.625rem;
+            width: 100%;
+            max-width: 240px;
+        }
+        .continue {
+            background: #fff;
+            a {
+                color: #121212;
+            }
+        }
+        .checkout {
+            color: #fff;
+            border: 1px solid #fff;
+        }
+    }
+}
