@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   return (
     <section className={`contain ${styles.hero}`}>
       <h1 className={`section-title ${styles.title}`}>
-        Discover StudioX Collections
+        Discover FuniMate Collections
       </h1>
       <div className={styles.pics}>
         <Image

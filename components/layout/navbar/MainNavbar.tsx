@@ -114,13 +114,7 @@ const MainNavbar = () => {
                   <Link href={"/furniture"}>Furniture</Link>
                 </li>
                 <li>
-                  <Link href={"/threedstudio"}>3D Studio</Link>
-                </li>
-                <li>
                   <Link href={"/smarthome"}>Smart Home</Link>
-                </li>
-                <li>
-                  <Link href={"/automation"}>Automation Setup</Link>
                 </li>
                 <li>
                   <Link href={"/robotics"}>Robotics</Link>
@@ -256,11 +250,6 @@ const MainNavbar = () => {
         </div>
         <ul>
           <li>
-            <Link href={"/threedstudio"} onClick={(e) => closeSidebar()}>
-              3D Studio
-            </Link>
-          </li>
-          <li>
             <Link href={"/furniture"} onClick={(e) => closeSidebar()}>
               Furniture
             </Link>
@@ -268,11 +257,6 @@ const MainNavbar = () => {
           <li>
             <Link href={"/smarthome"} onClick={(e) => closeSidebar()}>
               Smart Home
-            </Link>
-          </li>
-          <li>
-            <Link href={"/automation"} onClick={(e) => closeSidebar()}>
-              Automation Setup
             </Link>
           </li>
           <li>

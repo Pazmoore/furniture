@@ -10,7 +10,7 @@ const Contact = () => {
         <p>
           We&apos;d love to hear from you! Whether you have questions about our
           products, need support, or want to learn more about our services, our
-          team at StudioX is here to help.
+          team at FuniMate is here to help.
         </p>
       </div>
 
@@ -20,14 +20,13 @@ const Contact = () => {
             <h2>Get in Touch</h2>
             <p className={styles.info}>
               Phone: +234 707 7415 677 <br />
-              Email: cls@studioxbyd.com
+              Email: s@FuniMate.com
             </p>
 
             {/* use appropriate tags and don't overuse the break tag unless when necessary */}
             <p className={styles.info}>
-              Visit Us <br /> Explore our state-of-the-art showroom and meet our
-              team of experts in person. <br />
-              Address: Akin Adesola, Victoria Island, Lagos
+              Visit Us <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quas!. <br />
+              Address: Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
 
             <p>Business Hours: Monday - Sunday: 24 Hours At Work!</p>
@@ -60,8 +59,8 @@ const Contact = () => {
             <p>
               Facebook: StudioX Facebook Page <br /> Instagram: StudioXbyd
               Instagram Profile <br />
-              Twitter: StudioXbyd Twitter Handle <br />
-              LinkedIn: StudioXbyd LinkedIn Page <br /> Youtube: StudioXbyd
+              Twitter: FuniMate Twitter Handle <br />
+              LinkedIn: FuniMate LinkedIn Page <br /> Youtube: FuniMate
             </p>
           </div>
         </div>

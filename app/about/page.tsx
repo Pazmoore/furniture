@@ -7,12 +7,11 @@ const About = () => {
     <div className={styles.about}>
       <div className={`contain ${styles.welcome_container}`}>
         <div className={styles.welcome_info}>
-          <h1>Welcome to StudioX</h1>
+          <h1>Welcome to FuniMate</h1>
           <p className={styles.welcome_info_p}>
-            Welcome to StudioX, where innovation meets inspiration in the realm
-            of home improvement. We are a dynamic team of visionaries,
-            designers, engineers, and creators dedicated to revolutionizing the
-            way you experience and enhance your living spaces.
+            Welcome to FuniMate, Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Facere fugiat nisi vel nihil corporis eaque vero commodi quibusdam corrupti natus soluta reiciendis, 
+            possimus maxime iusto omnis? Commodi explicabo reprehenderit iure.
           </p>
         </div>
         <Image
@@ -36,13 +35,9 @@ const About = () => {
           <div className={styles.who_container_info}>
             <h2>Who We Are</h2>
             <p>
-              StudioX is a pioneering force in the home improvement industry,
-              leveraging cutting-edge technology to transform homes into havens
-              of style, comfort, and sustainability. Our journey began as a
-              seed-stage startup fueled by a passion for design and a commitment
-              to environmental stewardship. Today, we stand as a beacon of
-              innovation, proudly recognized by the World Bank for our
-              exceptional contributions to environmental safety.
+              FuniMate Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ullam debitis eaque voluptatem eius, ad beatae commodi nostrum illo, 
+              distinctio reprehenderit inventore perferendis eum reiciendis porro ipsam magni, nulla quis officia?
             </p>
           </div>
         </div>
@@ -53,11 +48,9 @@ const About = () => {
           <div className={styles.vision}>
             <h1>Our Vision</h1>
             <p className={styles.p}>
-              At StudioX, we believe that every home should be a sanctuary that
-              reflects the unique essence of its inhabitants. Our mission is to
-              empower individuals and families to create their dream homes
-              through a blend of advanced technology, sustainable practices, and
-              human ingenuity.
+              At FuniMate, Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Excepturi voluptatem doloribus alias quam, velit officiis? Explicabo ratione expedita magnam amet, 
+              cupiditate libero suscipit pariatur velit!
             </p>
           </div>
 
@@ -66,25 +59,19 @@ const About = () => {
               <div className={styles.vision_info_one}>
                 <h3>Commitment to Sustainability</h3>
                 <p className={styles.p}>
-                  StudioX is deeply committed to the United Nations Sustainable
-                  Development Goals (SDGs). Our STDX Zero Emission Program is a
-                  testament to our dedication to reducing our carbon footprint
-                  and promoting eco-friendly practices. From sourcing
-                  sustainable materials to implementing energy-efficient
-                  technologies, we strive to make a positive impact on the
-                  environment.
+                  FuniMate Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Ab error perspiciatis nisi, illum aliquid ipsum dolorem, 
+                  libero sed fuga nesciunt corporis impedit sunt nam quas?
                 </p>
               </div>
 
               <div className={styles.vision_info_one}>
                 <h3>Pioneering Technology</h3>
                 <p className={styles.p}>
-                  Our state-of-the-art 3D Design Studio allows customers to
-                  visualize and customize their spaces with unparalleled
-                  precision. From minimalist furniture pieces that marry form
-                  and function to smart home gadgets that simplify everyday
-                  tasks, our products are designed to elevate your living
-                  experience.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi odit, sapiente repellat totam 
+                  saepe est suscipit mollitia praesentium ex dignissimos, asperiores iste, 
+                  aliquam deleniti modi excepturi voluptates dolores. 
+                  Iste, harum.
                 </p>
               </div>
             </div>
@@ -101,22 +88,18 @@ const About = () => {
               <div className={styles.vision_info_one}>
                 <h3>Training School</h3>
                 <p className={styles.p}>
-                  We are not just a company; we are a learning hub. Our Training
-                  School is a cradle for budding designers, technologists, and
-                  innovators. Through comprehensive virtual and field training
-                  programs, we equip the next generation of talent with the
-                  skills and knowledge needed to lead in the home improvement
-                  industry.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Rem veritatis a voluptates corporis ipsam. 
+                  Eum earum iusto temporibus et, iste voluptate, rerum id sit, 
+                  doloremque officia nobis dicta impedit ad!
                 </p>
               </div>
               <div className={styles.vision_info_one}>
                 <h3>Recognition and Awards</h3>
                 <p className={styles.p}>
-                  Our unwavering commitment to environmental safety and
-                  innovation has earned us prestigious accolades, including the
-                  World Bank Award for Environmental Safety. This recognition
-                  underscores our efforts to create a safer, greener world for
-                  future generations.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis quibusdam expedita? 
+                  Pariatur ab voluptatibus fuga quae molestiae eaque perferendis dignissimos? 
+                  Eum consequatur minus, dolorum corrupti vel fugiat sit rem.
                 </p>
               </div>
             </div>
@@ -129,10 +112,7 @@ const About = () => {
           <div className={styles.team_container_info}>
             <h2>Our Team</h2>
             <p>
-              Whether you are a homeowner looking to transform your space, a
-              designer seeking inspiration, or an aspiring innovator ready to
-              learn, StudioX welcomes you. Join us on our journey to create
-              homes that are not just places to live but spaces to love
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid praesentium eveniet placeat nesciunt aut modi eos illo labore aliquam dolorem explicabo corporis, dolorum beatae commodi consequuntur iusto odit. Quae, ullam.
             </p>
           </div>
           <Image
@@ -149,10 +129,7 @@ const About = () => {
         <div className={styles.join_container}>
           <h3 className="section-title">Join Us</h3>
           <p className={styles.join_container_p}>
-            Whether you are a homeowner looking to transform your space, a
-            designer seeking inspiration, or an aspiring innovator ready to
-            learn, StudioX welcomes you. Join us on our journey to create homes
-            that are not just places to live but spaces to love
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis laborum provident perferendis sunt eius impedit facere tenetur numquam inventore repellat placeat, distinctio earum quaerat qui eum quidem nihil voluptate assumenda.
           </p>
           <button className={styles.join_button}>Join Us</button>
         </div>

@@ -20,7 +20,7 @@ const Page = () => {
                   style={{ fontSize: "2rem", marginBottom: "1.25rem" }}
                 />
                 <h5>Privacy Policy</h5>
-                <p>Click to check StudioX Privacy Policy</p>
+                <p>Click to check FuniMate Privacy Policy</p>
               </div>
 
               <div className={styles.policy_tab} onClick={() => setPage(2)}>
@@ -28,13 +28,13 @@ const Page = () => {
                   style={{ fontSize: "2rem", marginBottom: "1.25rem" }}
                 />
                 <h5>Cookies</h5>
-                <p>Click to check StudioX Cookies</p>
+                <p>Click to check FuniMate Cookies</p>
               </div>
 
               <div className={styles.policy_tab} onClick={() => setPage(3)}>
                 <CiUser style={{ fontSize: "2rem", marginBottom: "1.25rem" }} />
                 <h5>Terms of use</h5>
-                <p>Click to check StudioX Terms of Use</p>
+                <p>Click to check FuniMate Terms of Use</p>
               </div>
             </div>
           </div>
@@ -46,14 +46,7 @@ const Page = () => {
               <h1>Privacy Policy</h1>
               <p>Last Updated: June, 2024</p>
               <p className={styles.info}>
-                StudioX (`&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;)
-                respects your privacy and is committed to protecting your
-                personal information. This Privacy Policy explains how we
-                collect, use, disclose, and safeguard your information when you
-                use our platform, website, mobile application, and related
-                services (collectively, the &quot;Services&quot;). By accessing
-                or using our Services, you agree to the terms of this Privacy
-                Policy.
+              FuniMate Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum vero asperiores quaerat nulla quisquam explicabo iusto rem, architecto repellendus vitae!
               </p>
             </div>
 
@@ -116,10 +109,7 @@ const Page = () => {
               </p>
               <div className={styles.info}>
                 <p>
-                  We use cookies, web beacons, and similar technologies to
-                  collect information about your use of our Services and to
-                  improve your experience. You can control cookies through your
-                  browser settings.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur, molestias quam ipsa quae maiores voluptatem veritatis? Id, laborum impedit.
                 </p>
               </div>
             </div>
@@ -132,28 +122,22 @@ const Page = () => {
                 </p>
                 <ol>
                   <li>
-                    Providing Services: To facilitate bookings, process
-                    payments, and provide customer support.
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, repellat.
                   </li>
                   <li>
-                    Personalization: To tailor our Services to your preferences
-                    and enhance your experience.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, asperiores!
                   </li>
                   <li>
-                    Communication: To send you updates, promotional materials,
-                    and other information related to our Services.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolorum?
                   </li>
                   <li>
-                    Security: To detect and prevent fraud, unauthorized access,
-                    and other security issues.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, aliquam?
                   </li>
                   <li>
-                    Analytics: To analyze usage patterns and improve our
-                    Services.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, similique..
                   </li>
                   <li>
-                    Legal Compliance: To comply with applicable laws,
-                    regulations, and legal processes.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ex.
                   </li>
                 </ol>
               </div>
@@ -167,17 +151,13 @@ const Page = () => {
                 </p>
                 <ol>
                   <li>
-                    Service Providers: Third-party vendors who help us provide
-                    and improve our Services, such as payment processors,
-                    analytics providers, and marketing partners.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio recusandae doloremque ea suscipit labore dolorem aut, hic incidunt quos esse quam, saepe voluptas, consequatur ad..
                   </li>
                   <li>
-                    Business Partners: Partners who offer services or products
-                    that complement our own, with your consent.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, tempora doloremque accusamus sint rem nobis?.
                   </li>
                   <li>
-                    Legal Authorities: Government agencies or regulators when
-                    required by law or to protect our rights and interests.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, temporibus..
                   </li>
                 </ol>
               </div>
@@ -187,11 +167,7 @@ const Page = () => {
               <p className={styles.header}>4. Data Security</p>
               <div className={styles.info}>
                 <p>
-                  We implement appropriate technical and organizational measures
-                  to protect your personal information from unauthorized access,
-                  disclosure, alteration, and destruction. However, no security
-                  system is impenetrable, and we cannot guarantee the absolute
-                  security of your information.
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem eaque ratione nemo corrupti, modi nam deserunt amet perspiciatis accusamus, doloribus suscipit recusandae vel beatae tempora magnam harum veniam nihil odio..
                 </p>
               </div>
             </div>
@@ -201,9 +177,7 @@ const Page = () => {
               <p className={styles.header}>5.1 Access and Update</p>
               <div className={styles.info}>
                 <p>
-                  You have the right to access and update your personal
-                  information by logging into your account or contacting us
-                  directly.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, assumenda molestias consequuntur possimus pariatur qui odio molestiae asperiores eum ad..
                 </p>
               </div>
             </div>
@@ -212,10 +186,7 @@ const Page = () => {
               <p className={styles.header}>5.2 Data Deletion</p>
               <div className={styles.info}>
                 <p>
-                  You may request the deletion of your account and personal
-                  information by contacting us. We will comply with your
-                  request, subject to any legal obligations to retain certain
-                  information.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia accusantium voluptas voluptatibus quis eligendi deleniti sunt facilis et eveniet unde?.
                 </p>
               </div>
             </div>
@@ -224,10 +195,7 @@ const Page = () => {
               <p className={styles.header}>5.3 Opt-Out</p>
               <div className={styles.info}>
                 <p>
-                  You may opt out of receiving promotional emails from us by
-                  following the unsubscribe instructions in those emails. You
-                  may also manage your communication preferences through your
-                  account.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio accusamus molestiae vero ratione perferendis quia consequatur. Ab, saepe quae..
                 </p>
               </div>
             </div>
@@ -236,10 +204,7 @@ const Page = () => {
               <p className={styles.header}>6. International Data Transfers</p>
               <div className={styles.info}>
                 <p>
-                  Your information may be transferred to and processed in
-                  countries outside of your own, where privacy laws may be less
-                  stringent. By using our Services, you consent to such
-                  transfers and processing.
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ullam error ex distinctio architecto. Doloribus deserunt sint pariatur dolorem cum..
                 </p>
               </div>
             </div>
@@ -248,11 +213,7 @@ const Page = () => {
               <p className={styles.header}>7. Children&apos;s Privacy</p>
               <div className={styles.info}>
                 <p>
-                  Our Services are not intended for children under the age of
-                  18. We do not knowingly collect personal information from
-                  children under 18. If we become aware that we have
-                  inadvertently collected such information, we will delete it as
-                  soon as possible.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eligendi, similique suscipit distinctio optio porro!.
                 </p>
               </div>
             </div>
@@ -261,12 +222,7 @@ const Page = () => {
               <p className={styles.header}>8. Changes to This Privacy Policy</p>
               <div className={styles.info}>
                 <p>
-                  We may update this Privacy Policy from time to time, We will
-                  notify you of any significant changes by posting the new
-                  Privacy Policy on our website and updating the &quot;Last
-                  Updated&quot; date. Your continued use of the Services after
-                  any changes indicates your acceptance of the updated Privacy
-                  Policy.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In dicta hic consequuntur odio, laborum velit libero ipsum accusamus quod tenetur..
                 </p>
               </div>
             </div>
@@ -279,14 +235,12 @@ const Page = () => {
                   Policy or our data practices, please contact us at:
                 </p>
                 <ol>
-                  <li>Email: privacy@lamburghinie.com</li>
-                  <li>Address: Alred Rewane Road, Ikoyi, Lagos, Nigeria</li>
+                  <li>Email: privacy@FuniMate.com</li>
+                  <li>Address: Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   <li>Phone: +234 7064000854</li>
                 </ol>
                 <p>
-                  By using our Services, you acknowledge that you have read and
-                  understood this Privacy Policy and agree to the collection,
-                  use, and disclosure of your information as described herein.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aperiam recusandae, labore voluptatibus numquam voluptatum magni, aspernatur eligendi, totam possimus sed nihil libero! Itaque, debitis?.
                 </p>
               </div>
             </div>
@@ -298,9 +252,7 @@ const Page = () => {
             <h3>Cookies Policy</h3>
             <p>Optimized Browsing, Personalized Experience</p>
             <p>
-              Our cookies enhance your browsing experience by tailoring
-              recommendations and streamlining functionality. Manage preferences
-              anytime in your account settings.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus iste consequuntur sunt. Rem, quos beatae!.
             </p>
 
             <div></div>
@@ -312,9 +264,7 @@ const Page = () => {
             <h3>Terms of Use</h3>
             <p>Clear, Fair, and Reliable</p>
             <p>
-              By using Wixxa, you agree to our terms designed to ensure a
-              seamless, ethical, and enjoyable experience. We’re committed to
-              protecting your rights and offering exceptional service.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum minus quo fugit cumque animi a nisi, perferendis aut blanditiis?.
             </p>
 
             <div></div>

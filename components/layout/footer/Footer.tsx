@@ -47,7 +47,7 @@ const Footer = () => {
             height={100}
             style={{ width: "10rem", height: "3rem" }}
           />
-          <p>@StudioX 2024</p>
+          <p>@FuniMate 2025</p>
         </div>
       </div>
     </>

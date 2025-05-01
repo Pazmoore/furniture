@@ -6,7 +6,7 @@ const page = () => {
   return (
     <section className="contain">
       <div className={styles.pricing}>
-        <h1>Wixxa Annex </h1>
+        <h1>FuniMateAnnex </h1>
 
         <Image
           src={"/images/footer/annex.jpg"}
@@ -18,10 +18,7 @@ const page = () => {
         <div className={styles.pricing_info}>
           <h2>Virtual Learning Facility. Learn, Innovate, Transform</h2>
           <p>
-            Join our virtual learning facility, offering specialized courses in
-            design, technology, and sustainability. Perfect for architects,
-            interior designers, and homeowners looking to elevate their
-            expertise.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis reiciendis qui tempora laboriosam amet blanditiis a odit veritatis sunt animi labore accusantium sapiente ratione, consequuntur tenetur mollitia deserunt ipsam voluptatibus!
           </p>
         </div>
       </div>

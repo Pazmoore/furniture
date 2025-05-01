@@ -1,5 +1,4 @@
 import React from "react";
-import Experience from "@/components/Experience/Experience";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/components/styles/buyNow.module.scss";
@@ -95,7 +94,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Experience />
     </>
   );
 };

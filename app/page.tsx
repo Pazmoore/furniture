@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/home/hero/Hero";
 import Partners from "@/components/home/partners/Partners";
-import Featured from "@/components/home/featured/Featured";
 import Recommendation from "@/components/home/recommendations/Recommendation";
 import Beds from "@/components/home/Beds/Beds";
 import Blog from "@/components/home/blog/Blog";
@@ -14,7 +13,6 @@ export default function Home() {
       <main>
         <Hero />
         <Partners />
-        <Featured />
         <Recommendation />
         <Beds />
         <Blog />

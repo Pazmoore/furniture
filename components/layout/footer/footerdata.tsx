@@ -31,10 +31,6 @@ export const footerLinks = [
     link: "/about",
   },
   {
-    content: "Features",
-    link: "/features",
-  },
-  {
     content: "Pricing",
     link: "/pricing",
   },
@@ -45,11 +41,6 @@ export const footerLinks = [
   {
     content: "Contact us",
     link: "/contact",
-  },
-
-  {
-    content: "StudioX Annex",
-    link: "/annex",
   },
   {
     content: "Privacy",

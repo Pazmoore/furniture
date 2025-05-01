@@ -11,8 +11,7 @@ const page = () => {
             Join us in in driving change and making a meaningful impact
           </h1>
           <p>
-            Our team is passionate, innovative, and dedicated to creating
-            solutions that shape the future of the industry.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem repellendus odit esse voluptatum itaque ut unde beatae iure tempora.
           </p>
         </div>
 
@@ -32,9 +31,7 @@ const page = () => {
               <div className={styles.info}>
                 <h3>Career Development</h3>
                 <p>
-                  Your growth is our priority. With access to ongoing learning
-                  opportunities, mentorship programs, and career advancement
-                  path
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nobis suscipit, ullam omnis dignissimos commodi natus autem vitae, rerum corrupti sapiente praesentium possimus, perspiciatis adipisci.
                 </p>
               </div>
             </div>
@@ -50,9 +47,7 @@ const page = () => {
               <div className={styles.info}>
                 <h3>Inclusive Culture</h3>
                 <p>
-                  Expect the best from us. Get a dedicated support team that
-                  will handle all Diversity is at our core. We’re committed to
-                  building a team that represents all.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dicta eaque magnam asperiores blanditiis adipisci labore tempora alias nostrum atque.
                 </p>
               </div>
             </div>
@@ -68,9 +63,7 @@ const page = () => {
               <div className={styles.info}>
                 <h3>Comprehensive Benefits</h3>
                 <p className={styles.info}>
-                  We offer competitive salaries, health and wellness benefits,
-                  flexible work arrangements, and a range of perks to support a
-                  healthy work-life balance.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores earum ab maxime ipsum tempore natus, libero atque vero voluptate fugiat quidem debitis labore architecto.
                 </p>
               </div>
             </div>
@@ -86,8 +79,7 @@ const page = () => {
               <div className={styles.info}>
                 <h3>Innovative Environment</h3>
                 <p className={styles.p}>
-                  Included in our service, each customer gets in-house software
-                  to access live financial dashboards.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui omnis voluptas possimus, ipsum iste consectetur. Molestias inventore iure fugiat sapiente.
                 </p>
               </div>
             </div>

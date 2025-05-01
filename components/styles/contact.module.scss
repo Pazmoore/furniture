@@ -19,7 +19,8 @@
     }
 
     .get_in_touch {
-        background-color: #fff;
+        background-color: #c0e5fc;
+        ;
         .get_in_touch_container {
             color: #000;
             font-weight: 500;
@@ -76,7 +77,8 @@
     }
 
     .send {
-        background: #fff;
+        background: #c0e5fc;
+        ;
 
         .send_container {
             color: #000;
@@ -114,6 +116,7 @@
                         margin-bottom: 0.625rem;
                     }
                     input {
+                        background-color: transparent;
                         border: #000 1px solid;
                         border-radius: 0.625rem;
                         width: 100%;
@@ -129,6 +132,7 @@
                         margin-bottom: 0.625rem;
                     }
                     input {
+                        background-color: transparent;
                         border: #000 1px solid;
                         border-radius: 0.625rem;
                         width: 100%;
